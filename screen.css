@@ -1,0 +1,9 @@
+.fullscreen {
+	width:90%;margin-left:5%;padding:4% 0; background:rgb(5,50,97);color:white; margin-top:0%;margin-bottom:1em;font-size:1.5em;
+}
+body,html {height:100%;text-rendering: optimizeLegibility; margin:0;padding:0;}
+p,h1,h2,h3,h4 {
+	padding:.4em 10%;margin:0; font-family:sans-serif; font-weight:300;
+}
+h1{margin-top:.5em;}
+.page{transition:translate 1s;}
