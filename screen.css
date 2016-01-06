@@ -6,8 +6,8 @@ body,html {height:100%;width:100%;text-rendering: optimizeLegibility; margin:0;p
 p,h1,h2,h3,h4 {
 	padding:.4em 10%;margin:0; font-family:sans-serif; font-weight:300;line-height:1.4em;
 }
-h1{margin-top:.5em; transition:all 1s;text-shadow: -1em -1px 0px rgba(0,0,0,0), 1px -1px 0px transparent, 1px 1px 0px transparent, 1px -1px 0px transparent, 1em -1em 0px rgba(0,0,0,0.2), 2px -2px 0px transparent, 2px 2px 0px transparent, 1em -1em 0px transparent;}
-.fullscreen:hover h1 {color: rgb(5,80,97); text-shadow: -1px -1px 0px red, 1px -1px 0px red, 1px 1px 0px red, 1px -1px 0px red, -2px -2px 0px white, 2px -2px 0px white, 2px 2px 0px white, 2px -2px 0px white;}
+h1{font-size:3em;margin-top:.5em; transition:all 1s;text-shadow: -1em -1px 0px rgba(0,0,0,0), 1px -1px 0px transparent, 1px 1px 0px transparent, 1px -1px 0px transparent, 1em -1em 0px rgba(0,0,0,0.2), 2px -2px 0px transparent, 2px 2px 0px transparent, 1em -1em 0px transparent;}
+.fullscreen:hover h1 {transform:rotate(180deg);color: rgb(5,80,97); text-shadow: -1px -1px 0px red, 1px -1px 0px green, 1px 1px 0px red, 1px -1px 0px green, -2px -2px 0px purple, 2px -2px 0px white, 2px 2px 0px brown, 2px -2px 0px yellow;}
 #pagecontainer {overflow:hidden;width:100%;}
 .fullwidth{width:100%;z-index:1;}
 
