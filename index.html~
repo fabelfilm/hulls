@@ -4,25 +4,25 @@
     <meta charset="utf-8">
     <title>hulls — 30th Jan '16</title>
     <link rel="stylesheet" href="screen.css">
-    <script src="parallax.js"></script>
+    <script src="parallax2.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
 	<div id="pagecontainer">
-	    	<div class="page fullscreen">
+	    	<div class="page fullscreen parallax" data-parallax-level="10">
 			<h1>hulls</h1>
 			<p>workshop/<br/>choreography/<br/>short film</p>
 		</div>
-	       <div class="page fullscreen">
-			<h1>hulls</h1>
-			<p>workshop/<br/>choreography/<br/>short film</p>
+	    	<div class="page fullscreen parallax" data-parallax-level="5">
+			<h2>Timetable:</h2>
 		</div>
-	       <div class="page fullscreen">
-			<h1>hulls</h1>
-			<p>workshop/<br/>choreography/<br/>short film</p>
+		<img class="fullwidth" src="img/composition-of-first-sketches-1.jpg" />
+	       <div class="page fullscreen parallax" data-parallax-level="5"">
+			<h2>some other drawings:</h2>
 		</div>
+		<img class="fullwidth" src="img/composition-of-first-sketches-2.jpg" />
 	</div>
   </body>
 </html>

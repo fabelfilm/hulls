@@ -1,9 +1,17 @@
-.fullscreen {
-	width:90%;margin-left:5%;padding:4% 0; background:rgb(5,50,97);color:white; margin-top:0%;margin-bottom:1em;font-size:1.5em;
+.fullscreen { z-index:10;
+	width:50%;margin-left:25%;padding:4% 0; background:rgb(5,80,97);color:white; margin-top:0%;margin-bottom:-1px;font-size:1.5em; transition: margin .3s, width .3s, translate 1s, font-size .2s; max-width:50em; background-image:url("https://media.giphy.com/media/euiADmXB8bJ4c/giphy.gif");background-size:cover;box-shadow:inset 0px 1px 8px black;
 }
-body,html {height:100%;text-rendering: optimizeLegibility; margin:0;padding:0;}
+body {background:black;}
+body,html {height:100%;width:100%;text-rendering: optimizeLegibility; margin:0;padding:0;}
 p,h1,h2,h3,h4 {
-	padding:.4em 10%;margin:0; font-family:sans-serif; font-weight:300;
+	padding:.4em 10%;margin:0; font-family:sans-serif; font-weight:300;line-height:1.4em;
 }
-h1{margin-top:.5em;}
-.page{transition:translate 1s;}
+h1{margin-top:.5em; transition:all 1s;text-shadow: -1em -1px 0px rgba(0,0,0,0), 1px -1px 0px transparent, 1px 1px 0px transparent, 1px -1px 0px transparent, 1em -1em 0px rgba(0,0,0,0.2), 2px -2px 0px transparent, 2px 2px 0px transparent, 1em -1em 0px transparent;}
+.fullscreen:hover h1 {color: rgb(5,80,97); text-shadow: -1px -1px 0px red, 1px -1px 0px red, 1px 1px 0px red, 1px -1px 0px red, -2px -2px 0px white, 2px -2px 0px white, 2px 2px 0px white, 2px -2px 0px white;}
+#pagecontainer {overflow:hidden;width:100%;}
+.fullwidth{width:100%;z-index:1;}
+
+/*for very slim screens*/
+@media (max-width: 30em) {
+.fullscreen { width:110%; margin-left:-5%;margin-right:-10%; font-size:1.2em;}
+}
