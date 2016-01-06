@@ -29,10 +29,10 @@ when scrolling starts, count all
 
 // handle event
 window.addEventListener("optimizedScroll", function() {
-    console.log("Resource conscious scroll callback!");
+    //console.log("Resource conscious scroll callback!");
 });
 window.addEventListener("optimizedResize", function() {
-    console.log("Resource conscious resize callback!");
+    //console.log("Resource conscious resize callback!");
 });
 
 

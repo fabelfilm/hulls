@@ -24,11 +24,15 @@ when scrolling starts, count all
 
     /* init - you can init any event */
     throttle ("scroll", "optimizedScroll");
+    throttle ("resize", "optimizedResize");
 })();
 
 // handle event
 window.addEventListener("optimizedScroll", function() {
     console.log("Resource conscious scroll callback!");
+});
+window.addEventListener("optimizedResize", function() {
+    console.log("Resource conscious resize callback!");
 });
 
 
